@@ -1,0 +1,44 @@
+
+
+a, u{
+    text-decoration: none;
+}
+a:hover
+{
+  text-decoration:none;
+  cursor:pointer;
+ }
+
+.navbar{
+    background-color: transparent;
+    position: fixed;
+    width: 100vw;
+    height: 75px;
+    z-index: 100;
+    overflow: auto;
+    background-color: rgb(231, 231, 231);
+    background-color: transparent;
+    text-align: center;
+    top: 0;
+
+    .nav-link{
+        text-decoration: none;
+        color: rgb(255, 255, 255) !important;
+        top: 20px;
+        position: relative;
+        text-align:  center;
+        transition: 0.5s !important;
+        font-size: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-bottom: 0px solid transparent;
+    }
+    .nav-link:hover{
+        border-bottom: 1px solid rgb(255, 255, 255);
+    }
+    .selected{
+        border-bottom: 2px solid rgb(255, 255, 255) !important;
+    }
+
+
+}

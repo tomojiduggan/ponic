@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+.page {
+  height: 100vh;
+}
+
+/* Google Fonts */
+#intro {
+  background-color: rgba(0, 0, 0, 0);
+  color: #e0e0e0;
+  position: relative;
+  overflow: auto;
+}
+
+#intro #title {
+  font-size: 5rem;
+  position: relative;
+  margin-top: 200px;
+  margin-left: 200px;
+  display: inline-block;
+  width: 700px;
+  color: #1f3130;
+}
+
+#intro #title #typetext {
+  color: #7adddd;
+  border-right: 5px solid black;
+  -webkit-animation: blink 0.5s infinite;
+          animation: blink 0.5s infinite;
+}
+
+#intro #sceme-img {
+  position: relative;
+  margin-right: 100px;
+  margin-top: auto;
+  width: 600px;
+  float: right;
+  vertical-align: bottom;
+}
+
+#intro #cover {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+#explanation {
+  background-color: #2e2e2e;
+}
+
+#explanation #graph-parent {
+  width: 700px;
+  position: relative;
+  height: 00px;
+}
+
+#uses {
+  background-color: rgba(0, 0, 0, 0.473);
+}
+
+#conclusion {
+  background-color: #5c3f3f;
+}
+
+@-webkit-keyframes blink {
+  from {
+    border-right-color: rgba(31, 60, 94, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+@keyframes blink {
+  from {
+    border-right-color: rgba(31, 60, 94, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+#demo {
+  color: #b8dfdb;
+}
+/*# sourceMappingURL=page.css.map */

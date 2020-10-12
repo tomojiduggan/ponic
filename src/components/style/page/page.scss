@@ -1,0 +1,80 @@
+
+
+.page{
+    height: 100vh;
+}
+
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+
+
+#intro{
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(224, 224, 224);
+  position: relative;
+  overflow: auto;
+  #title{
+    font-size: 5rem;
+    position: relative;
+    margin-top: 200px;
+    margin-left: 200px;
+    display: inline-block;
+    width: 700px;
+    color: rgb(31, 49, 48);
+
+    #typetext{
+      color: #7adddd;
+
+      border-right: 5px solid rgb(0, 0, 0);
+      animation: blink 0.5s infinite;
+    }
+  }
+
+  #sceme-img{
+    position: relative;
+
+    margin-right: 100px;
+    margin-top: auto;
+    width: 600px;
+    float: right;
+    vertical-align: bottom
+  }
+  #cover{
+    height: 100vh;
+    width: 100%;
+   // background: linear-gradient(black, rgba(0, 0, 0, 0.39));
+    position: absolute;
+    top: 0;
+  }
+  #graph-parent{
+
+    #graph{
+    }
+  }
+}
+#explanation{
+  background-color: rgb(46, 46, 46);
+  #graph-parent{
+    width: 700px;
+    position: relative;
+    height: 00px;
+  }
+}
+//Uses!
+#uses{
+  background-color: rgba(0, 0, 0, 0.473);
+}
+#conclusion{
+  background-color: rgb(92, 63, 63);
+}
+
+
+@keyframes blink{
+  from{border-right-color: rgba(31, 60, 94, 0.75);}
+  to{border-right-color: transparent;}
+}
+
+#demo{
+  color: rgb(184, 223, 219)
+}
